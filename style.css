@@ -1,0 +1,90 @@
+*{
+    margin-top: 10px;
+    padding: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    z-index:1;
+}
+body{
+    background-color: #3a495e;
+  
+}
+
+
+nav{
+    background-color: #ff9081;
+    color:white;
+    padding:2vh;
+    margin-left: -10px;
+    width:100vw;
+    top:0%;
+    z-index: 2;
+}
+.buttoncontainer{
+    position: relative;
+    left: 5%;
+    display: inline-block;
+}
+.button{
+    font-size: 120%;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding-left:2.5vw;
+    transition: 0.2s;
+    font-weight: bold;
+}
+.mainbutton{
+    font-size: 160%;
+    font-style: bold;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding-left:2.5vw;
+    transition: 0.2s;
+    font-weight: bold;
+}
+.button:hover{
+    color:#3a495e;
+    transition: 1s;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.mainbutton:hover{
+    color:#3a495e;
+    transition: 1s;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+.banner{
+    height: 100vh;
+    z-index: -1;
+}
+
+
+footer{
+    position:fixed;
+    bottom: 0%;
+    right: .1vw;
+    width: 100vw;
+    background-color: #ff5656;
+    color:rgb(0, 0, 0);
+}
+footer p{
+    display: inline-block;
+}
+.socialspics{
+    display:inline-block;
+    padding-right: 5vw;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+.socialsicons{
+    display: contents;
+    background-color: #02580967;
+    width: 3vw;
+    aspect-ratio: 1/1;
+    float: left;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 0.5vw;
+}
